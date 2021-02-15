@@ -1,137 +1,137 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
-    "type": "object",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "default": {},
-    "examples": [
-        {
-            "cep": "01001-000",
-            "logradouro": "Praça da Sé",
-            "complemento": "lado ímpar",
-            "bairro": "Sé",
-            "localidade": "São Paulo",
-            "uf": "SP",
-            "ibge": "3550308",
-            "gia": "1004",
-            "ddd": "11",
-            "siafi": "7107"
-        }
-    ],
-    "required": [
-        "cep",
-        "logradouro",
-        "complemento",
-        "bairro",
-        "localidade",
-        "uf",
-        "ibge",
-        "gia",
-        "ddd",
-        "siafi"
-    ],
-    "properties": {
-        "cep": {
-            "$id": "#/properties/cep",
-            "type": "string",
-            "title": "The cep schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "01001-000"
-            ]
-        },
-        "logradouro": {
-            "$id": "#/properties/logradouro",
-            "type": "string",
-            "title": "The logradouro schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "Praça da Sé"
-            ]
-        },
-        "complemento": {
-            "$id": "#/properties/complemento",
-            "type": "string",
-            "title": "The complemento schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "lado ímpar"
-            ]
-        },
-        "bairro": {
-            "$id": "#/properties/bairro",
-            "type": "string",
-            "title": "The bairro schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "Sé"
-            ]
-        },
-        "localidade": {
-            "$id": "#/properties/localidade",
-            "type": "string",
-            "title": "The localidade schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "São Paulo"
-            ]
-        },
-        "uf": {
-            "$id": "#/properties/uf",
-            "type": "string",
-            "title": "The uf schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "SP"
-            ]
-        },
-        "ibge": {
-            "$id": "#/properties/ibge",
-            "type": "string",
-            "title": "The ibge schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "3550308"
-            ]
-        },
-        "gia": {
-            "$id": "#/properties/gia",
-            "type": "string",
-            "title": "The gia schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "1004"
-            ]
-        },
-        "ddd": {
-            "$id": "#/properties/ddd",
-            "type": "string",
-            "title": "The ddd schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "11"
-            ]
-        },
-        "siafi": {
-            "$id": "#/properties/siafi",
-            "type": "string",
-            "title": "The siafi schema",
-            "description": "",
-            "default": "",
-            "examples": [
-                "7107"
-            ]
-        }
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
+  ],
+  "required": [
+    "cep",
+    "logradouro",
+    "complemento",
+    "bairro",
+    "localidade",
+    "uf",
+    "ibge",
+    "gia",
+    "ddd",
+    "siafi"
+  ],
+  "properties": {
+    "cep": {
+      "$id": "#/properties/cep",
+      "type": "string",
+      "title": "The cep schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "01001-000"
+      ]
     },
-    "additionalProperties": true
+    "logradouro": {
+      "$id": "#/properties/logradouro",
+      "type": "string",
+      "title": "The logradouro schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "Praça da Sé"
+      ]
+    },
+    "complemento": {
+      "$id": "#/properties/complemento",
+      "type": "string",
+      "title": "The complemento schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "lado ímpar"
+      ]
+    },
+    "bairro": {
+      "$id": "#/properties/bairro",
+      "type": "string",
+      "title": "The bairro schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "Sé"
+      ]
+    },
+    "localidade": {
+      "$id": "#/properties/localidade",
+      "type": "string",
+      "title": "The localidade schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "São Paulo"
+      ]
+    },
+    "uf": {
+      "$id": "#/properties/uf",
+      "type": "string",
+      "title": "The uf schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "SP"
+      ]
+    },
+    "ibge": {
+      "$id": "#/properties/ibge",
+      "type": "string",
+      "title": "The ibge schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "3550308"
+      ]
+    },
+    "gia": {
+      "$id": "#/properties/gia",
+      "type": "string",
+      "title": "The gia schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "1004"
+      ]
+    },
+    "ddd": {
+      "$id": "#/properties/ddd",
+      "type": "string",
+      "title": "The ddd schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "11"
+      ]
+    },
+    "siafi": {
+      "$id": "#/properties/siafi",
+      "type": "string",
+      "title": "The siafi schema",
+      "description": "",
+      "default": "",
+      "examples": [
+        "7107"
+      ]
+    }
+  },
+  "additionalProperties": true
 }

@@ -1,11 +1,10 @@
 package br.com.automation.selenium.automationtesting.page.page;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
-
 import br.com.automation.selenium.automationtesting.page.enums.Gender;
 import br.com.automation.selenium.automationtesting.page.enums.Hobbies;
 import br.com.automation.selenium.automationtesting.service.DSL;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class RegisterPage {
 

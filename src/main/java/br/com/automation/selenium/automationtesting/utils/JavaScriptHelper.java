@@ -1,9 +1,8 @@
 package br.com.automation.selenium.automationtesting.utils;
 
+import com.paulhammant.ngwebdriver.NgWebDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-
-import com.paulhammant.ngwebdriver.NgWebDriver;
 
 public class JavaScriptHelper {
 

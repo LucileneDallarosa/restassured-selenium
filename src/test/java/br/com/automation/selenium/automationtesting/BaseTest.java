@@ -2,7 +2,6 @@ package br.com.automation.selenium.automationtesting;
 
 import br.com.automation.selenium.automationtesting.page.page.RegisterPage;
 import br.com.automation.selenium.automationtesting.utils.JavaScriptHelper;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

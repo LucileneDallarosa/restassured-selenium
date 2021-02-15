@@ -78,7 +78,7 @@ public class RegisterStepdefs extends BaseTest {
     }
 
     @Then("^Register the user$")
-    public void validateProceedWithTheOrder(){
+    public void validateProceedWithTheOrder() {
         assertTrue(registerPage.getClassForm().contains("ng-valid-parse"));
         assertTrue(registerPage.getClassForm().contains("ng-valid-email"));
         assertTrue(registerPage.getClassForm().contains("ng-valid-pattern"));
@@ -91,49 +91,49 @@ public class RegisterStepdefs extends BaseTest {
     }
 
     @Then("^Form is Invalid$")
-    public void validateFormNameClass(){
+    public void validateFormNameClass() {
         assertTrue(registerPage.getClassForm().contains("ng-invalid"));
     }
 
     @Then("^First Name is Invalid$")
-    public void validateFirstNameClass(){
+    public void validateFirstNameClass() {
         assertTrue(registerPage.getFirstNameClass().contains("ng-invalid"));
     }
 
     @Then("^Last Name is Invalid$")
-    public void validateLastNameClass(){
+    public void validateLastNameClass() {
         assertTrue(registerPage.getLastNameClass().contains("ng-invalid"));
     }
 
     @Then("^Email Adress is Invalid$")
-    public void validateEmailAdressClass(){
+    public void validateEmailAdressClass() {
         assertTrue(registerPage.getEmailAdressClass().contains("ng-invalid"));
     }
 
     @Then("^Phone is Invalid$")
-    public void validatePhoneClass(){
+    public void validatePhoneClass() {
         assertTrue(registerPage.getPhoneClass().contains("ng-invalid"));
     }
 
     @Then("^Country is Invalid$")
-    public void validateCountryClass(){
+    public void validateCountryClass() {
         assertTrue(registerPage.getCountryClass().contains("ng-invalid"));
     }
 
     @Then("^Date Of Birth is Invalid$")
-    public void validateDateOfBirthClass(){
+    public void validateDateOfBirthClass() {
         assertTrue(registerPage.getDateOfBirthYearClass().contains("ng-invalid"));
         assertTrue(registerPage.getDateOfBirthMonthClass().contains("ng-invalid"));
         assertTrue(registerPage.getDateOfBirthDayClass().contains("ng-invalid"));
     }
 
     @Then("^Password is Invalid$")
-    public void validatePasswordClass(){
+    public void validatePasswordClass() {
         assertTrue(registerPage.getPasswordClass().contains("ng-invalid"));
     }
 
     @Then("^CPassword is Invalid$")
-    public void validateCPasswordClass(){
+    public void validateCPasswordClass() {
         assertTrue(registerPage.getCPasswordClass().contains("ng-invalid"));
     }
 

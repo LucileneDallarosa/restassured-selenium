@@ -1,31 +1,30 @@
 # Automation Code Challenge 
 
 ##Test Selenium on Demo.automationtesting.in
-This task aims to automate a user registration on the website http://demo.automationtesting.in/Register.html, using the concepts of BDD and testing UI.
-On 2/15/2021, The form on the http://demo.automationtesting.in/Register.html page was returning the message: 
-"Access to XMLHttpRequest at 'https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X 'from origin' http://demo.automationtesting.in 'has been blocked by CORS policy: No' Access-Control-Allow-Origin 'header is present on the requested resource. " .
-In a palatal measure, I carried out the asserts by the ng-valid itself.
+This task aims to automate a user registration on the website http://demo.automationtesting.in/Register.html, using the concepts of BDD and UI testing. On 2/15/2021, the page form http://demo.automationtesting.in/Register.html was returning the message: 
+"Access to XMLHttpRequest at 'https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X' from origin 'http://demo.automationtesting.in' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.".
+In a palliative measure, I executed the statements by ng-valid itself.
 
-###Scenario
+###Test Scenarios
 * Register a new user with all fields
-* Register a new user with only the required fields
-* Invalidate registration of a new user when the Mandatory fields are empty
-* Invalidate registration of a new user when the E-mail is invalid
-* Invalidate registration of a new user when the Phone is invalid
-* Invalidate registration of a new user when the Password is invalid
-* Invalidate registration of a new user when the Date Of Birth is  February, 31th
+* Register a new user with the required fields only
+* Invalidate the registration of a new user when the Mandatory fields are empty
+* Invalidate the registration of a new user when the E-mail is invalid
+* Invalidate the registration of a new user when the Phone is invalid
+* Invalidate the registration of a new user when the Password is invalid
+* Invalidate the registration of a new user when the Date Of Birth is invalid (February, 31th)
 
 ###Bugs Found:
 - Allows Birthday Date: February, 31th
-- Date Of Birth, Password and Confirm Password fields are not "*" and are mandatory.
-- The Format Brazilian Phone aren't accept
-- Clicking Submit is returning an error: 400 on the Chrome console instead of going to another page.
+- The Date of Birth, Password and Confirm Password fields are not marked with "*" but are mandatory
+- The Brazilian phone format is not supported
+- Clicking "Submit" is returning error 400 on the Chrome console instead of going to another page
 
-##Test restAssured on Viacep.com.br/ws/{cep}/json/
-This project aimed to automate the API result https://viacep.com.br/ws/{cep}/json/
+##Test RestAssured on Viacep.com.br/ws/{cep}/json/
+This project aims to automate the API result https://viacep.com.br/ws/{cep}/json/
 
-###Scenario
-* Get Correct Adress Information from ZipCode
+###Test Scenarios
+* Get Correct Postal Code address information
 * Get Invalid ZipCode
 
 ## Tools
@@ -36,5 +35,5 @@ This project aimed to automate the API result https://viacep.com.br/ws/{cep}/jso
 * Cucumber
 * Junit
 * Selenium
-* NG Web Driver
+* NG WebDriver
 * RestAssured

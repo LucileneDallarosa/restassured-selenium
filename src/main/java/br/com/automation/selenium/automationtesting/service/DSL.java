@@ -1,10 +1,9 @@
 package br.com.automation.selenium.automationtesting.service;
 
+import com.paulhammant.ngwebdriver.ByAngular;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import com.paulhammant.ngwebdriver.ByAngular;
 
 public class DSL {
 
