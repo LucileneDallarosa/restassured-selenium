@@ -116,7 +116,7 @@ Feature: Register new user process
     And Select the Movies Hobbies
     And Select the APIs Skills
     And Select the Brazil Country
-    And Select the Date Of Birth  February, 31th - 1970
+    And Select the Date Of Birth 31 - February - 1970
     And Enter Password with @Teste123
     And Enter Confirm Password with @Teste123
     Then Form is Invalid
