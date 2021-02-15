@@ -20,11 +20,15 @@
     </properties>
 
     <dependencies>
+
+        <!--JUnit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
         </dependency>
+
+        <!--Cucumber -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
@@ -40,6 +44,8 @@
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
+
+        <!--Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -50,7 +56,6 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>${selenium.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.paulhammant</groupId>
             <artifactId>ngwebdriver</artifactId>
@@ -63,15 +68,12 @@
             <groupId>io.rest-assured</groupId>
             <version>${restassured.version}</version>
         </dependency>
-
-        <!-- Json Schema Validator -->
         <dependency>
             <artifactId>json-schema-validator</artifactId>
             <groupId>io.rest-assured</groupId>
             <scope>test</scope>
             <version>${restassured.version}</version>
         </dependency>
-
         <dependency>
             <artifactId>json-path</artifactId>
             <groupId>io.rest-assured</groupId>
@@ -79,6 +81,7 @@
             <version>${restassured.version}</version>
         </dependency>
 
+        <!--Log -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
